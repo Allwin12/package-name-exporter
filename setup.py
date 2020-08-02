@@ -1,7 +1,7 @@
 import setuptools
 
-# with open("README.md", "r") as fh:
-#     long_description = fh.read()
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setuptools.setup(
     name="package-name-exporter",
@@ -9,7 +9,7 @@ setuptools.setup(
     author="Allwin Raju",
     author_email="allwindicaprio@gmail.com",
     description="Export python packages installed to txt, pdf and xls format",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/Allwin12/package-name-exporter",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
