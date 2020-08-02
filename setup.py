@@ -10,6 +10,8 @@ setuptools.setup(
     author_email="allwindicaprio@gmail.com",
     description="Export python packages installed to txt, pdf and xls format",
     url="https://github.com/Allwin12/package-name-exporter",
+    long_description=long_description,
+    long_description_content_type='text/markdown'
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
