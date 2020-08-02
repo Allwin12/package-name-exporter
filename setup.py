@@ -18,7 +18,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-        "xlwt==1.3.0",
-        "fpdf==1.7.2"
+        "xlwt>=1.3",
+        "fpdf>=1.7"
     ]
 )
