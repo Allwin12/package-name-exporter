@@ -20,3 +20,14 @@ python setup.py install
 ```
 
 ## Usage
+
+This library helps you to export the installed packages into txt, xls and pdf format
+
+* pdf format
+
+```python
+from package_name_exporter.exporter import PackageNameExporter
+
+my_class = PackageNameExporter()
+my_class.get_packages_list('pdf', 'filename.pdf')
+```
