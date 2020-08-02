@@ -23,11 +23,27 @@ python setup.py install
 
 This library helps you to export the installed packages into txt, xls and pdf format
 
-* pdf format
+### pdf format
 
 ```python
 from package_name_exporter.exporter import PackageNameExporter
 
 my_class = PackageNameExporter()
 my_class.get_packages_list('pdf', 'filename.pdf')
+```
+
+### xls format
+```python
+from package_name_exporter.exporter import PackageNameExporter
+
+my_class = PackageNameExporter()
+my_class.get_packages_list('xls', 'filename.xls')
+```
+
+### txt format
+```python
+from package_name_exporter.exporter import PackageNameExporter
+
+my_class = PackageNameExporter()
+my_class.get_packages_list('txt', 'filename.txt')
 ```
