@@ -6,3 +6,17 @@ This package is the advanced version of the
 pip freeze > requirements.txt
 ```
 
+## Installation
+
+* Install this package from pypi.org 
+
+```python
+pip install package-name-exporter
+```
+* clone this repo and run 
+
+```python
+python setup.py install
+```
+
+## Usage
